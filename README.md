@@ -1,8 +1,8 @@
 # Long-Lasting UAV-aided RIS Communications based on SWIPT
 ## Introduction
-This repository is the implementation of "Long-Lasting UAV-aided RIS Communications based on SWIPT" in 2022 IEEE Wireless Communications and Networking Conference (WCNC). [[Paper]](https://haoran-peng.github.io/Slides/peng1570767WCNC.pdf) [[Slides]](https://haoran-peng.github.io/Slides/EH_UAV_RIS.pdf) [[Video]](https://www.bilibili.com/video/BV1jL4y1F7oA#reply112394783936)
-The implementation of DDPG is based on this [tutorial](https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b).
-The architecture of actor and critic nets are implemented via using a MLP (2 layers of 64 neurals).
+- This repository is the implementation of "Long-Lasting UAV-aided RIS Communications based on SWIPT" in 2022 IEEE Wireless Communications and Networking Conference (WCNC). [[Paper]](https://haoran-peng.github.io/Slides/peng1570767WCNC.pdf) [[Slides]](https://haoran-peng.github.io/Slides/EH_UAV_RIS.pdf) [[Video]](https://www.bilibili.com/video/BV1jL4y1F7oA#reply112394783936)
+- The implementation of DDPG is based on this [tutorial](https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b).
+- The architecture of actor and critic nets are implemented via using a MLP (2 layers of 64 neurals).
 
 > There are some limitations to this work. If you have any questions or suggestions, please feel free to contact me. Your suggestions are greatly appreciated.
 
@@ -35,9 +35,9 @@ Please consider **citing** our paper if this repository is helpful to you.
 - The folder "Exhaustive-SingleUT-Time-and-Space" is the source code for the two-domain (Time and Space) EH scheme using  Exhaustive Algorithm.
 
 #### Descriptions of files
-For the Exhaustive Algorithm, the communication environment is impletemented in 'ARIS_ENV.py'.
-For the DDPG, the communication environment is impletemented in 'gym_foo/envs/foo_env.py'.
-You can change the dataset in 'gym_foo/envs/foo_env.py'.
+- For the Exhaustive Algorithm, the communication environment is impletemented in 'ARIS_ENV.py'.
+- For the DDPG, the communication environment is impletemented in 'gym_foo/envs/foo_env.py'.
+- You can change the dataset in 'gym_foo/envs/foo_env.py'.
 
 #### Training phase
 1. In the main.py, the switch of "Train" must be 'True' such as
