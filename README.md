@@ -1,6 +1,6 @@
 # Long-Lasting UAV-aided RIS Communications based on SWIPT
 ## Introduction
-- This repository is the implementation of "Long-Lasting UAV-aided RIS Communications based on SWIPT" in 2022 IEEE Wireless Communications and Networking Conference (WCNC). [[Paper]](https://haoran-peng.github.io/Slides/peng1570767WCNC.pdf) [[Slides]](https://haoran-peng.github.io/Slides/EH_UAV_RIS.pdf) [[Video]](https://www.bilibili.com/video/BV1jL4y1F7oA#reply112394783936)
+- This repository is the implementation of "Long-Lasting UAV-aided RIS Communications based on SWIPT" in 2022 IEEE Wireless Communications and Networking Conference (WCNC). [[Paper]](https://ieeexplore.ieee.org/document/9771999) [[Slides]](https://haoran-peng.github.io/Slides/EH_UAV_RIS.pdf) [[Video]](https://www.bilibili.com/video/BV1jL4y1F7oA#reply112394783936)
 - The implementation of DDPG is based on this [tutorial](https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b).
 - The architecture of actor and critic nets are implemented via using a MLP (2 layers of 64 neurals).
 
