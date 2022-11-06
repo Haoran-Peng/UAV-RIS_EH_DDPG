@@ -4,7 +4,7 @@
 - The implementation of DDPG is based on this [tutorial](https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b).
 - The architecture of actor and critic nets are implemented via using a MLP (3 layers of 64 neurals).
 
-<font color=red>[UAV--RIS_EnergyHarvesting](https://github.com/Haoran-Peng/UAV-RIS_EnergyHarvesting)</font>
+<font color=#FF0000>[UAV--RIS_EnergyHarvesting](https://github.com/Haoran-Peng/UAV-RIS_EnergyHarvesting)</font>
 
 > There are some limitations to this work. If you have any questions or suggestions, please feel free to contact me. Your suggestions are greatly appreciated.
 
