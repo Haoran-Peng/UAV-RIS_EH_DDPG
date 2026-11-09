@@ -81,7 +81,7 @@ class DDPGagent:
 
 
     def load(self, filename):
-        self.critic.load_state_dict(torch.load(filename + "_critic"))
-        self.critic_optimizer.load_state_dict(torch.load(filename + "_critic_optimizer"))
-        self.actor.load_state_dict(torch.load(filename + "_actor"))
-        self.actor_optimizer.load_state_dict(torch.load(filename + "_actor_optimizer"))
+        self.critic.load_state_dict(torch.load(filename + "_critic", weights_only=True))
+        self.critic_optimizer.load_state_dict(torch.load(filename + "_critic_optimizer", weights_only=True))
+        self.actor.load_state_dict(torch.load(filename + "_actor", weights_only=True))
+        self.actor_optimizer.load_state_dict(torch.load(filename + "_actor_optimizer", weights_only=True))
